@@ -14,6 +14,10 @@
 		FA8B859C29C9CE560053E660 /* Cards_ReworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8B859B29C9CE560053E660 /* Cards_ReworkTests.swift */; };
 		FA8B85A629C9CE560053E660 /* Cards_ReworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8B85A529C9CE560053E660 /* Cards_ReworkUITests.swift */; };
 		FA8B85A829C9CE560053E660 /* Cards_ReworkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8B85A729C9CE560053E660 /* Cards_ReworkUITestsLaunchTests.swift */; };
+		FA8B85B529C9D49A0053E660 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8B85B429C9D49A0053E660 /* CardView.swift */; };
+		FA8B85B729C9D5390053E660 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8B85B629C9D5390053E660 /* Card.swift */; };
+		FA8B85B929C9DC820053E660 /* CardDeckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8B85B829C9DC820053E660 /* CardDeckView.swift */; };
+		FA8B85BB29CA595E0053E660 /* CreateCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8B85BA29CA595E0053E660 /* CreateCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,10 @@
 		FA8B85A129C9CE560053E660 /* Cards ReworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cards ReworkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA8B85A529C9CE560053E660 /* Cards_ReworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards_ReworkUITests.swift; sourceTree = "<group>"; };
 		FA8B85A729C9CE560053E660 /* Cards_ReworkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards_ReworkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FA8B85B429C9D49A0053E660 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		FA8B85B629C9D5390053E660 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		FA8B85B829C9DC820053E660 /* CardDeckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDeckView.swift; sourceTree = "<group>"; };
+		FA8B85BA29CA595E0053E660 /* CreateCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,10 @@
 			children = (
 				FA8B858929C9CE540053E660 /* Cards_ReworkApp.swift */,
 				FA8B858B29C9CE540053E660 /* ContentView.swift */,
+				FA8B85BA29CA595E0053E660 /* CreateCardView.swift */,
+				FA8B85B629C9D5390053E660 /* Card.swift */,
+				FA8B85B829C9DC820053E660 /* CardDeckView.swift */,
+				FA8B85B429C9D49A0053E660 /* CardView.swift */,
 				FA8B858D29C9CE560053E660 /* Assets.xcassets */,
 				FA8B858F29C9CE560053E660 /* Cards_Rework.entitlements */,
 				FA8B859029C9CE560053E660 /* Preview Content */,
@@ -260,7 +272,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA8B858C29C9CE540053E660 /* ContentView.swift in Sources */,
+				FA8B85B929C9DC820053E660 /* CardDeckView.swift in Sources */,
+				FA8B85BB29CA595E0053E660 /* CreateCardView.swift in Sources */,
+				FA8B85B529C9D49A0053E660 /* CardView.swift in Sources */,
 				FA8B858A29C9CE540053E660 /* Cards_ReworkApp.swift in Sources */,
+				FA8B85B729C9D5390053E660 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
